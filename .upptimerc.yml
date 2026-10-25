@@ -1,0 +1,19 @@
+owner: web-cracker
+repo: kestrel-status
+
+sites:
+  - name: Kestrel Web
+    url: https://kestrel.techzipe.com
+  - name: Kestrel API
+    url: https://techzipe-crm-api.techzipe.workers.dev
+
+status-website:
+  cname: status.kestrel.techzipe.com
+  name: Kestrel Status
+  introTitle: "**Kestrel** service status"
+  introMessage: Live uptime and incident history for Kestrel, updated every 5 minutes.
+  navbar:
+    - title: Status
+      href: /
+    - title: Kestrel
+      href: https://kestrel.techzipe.com
